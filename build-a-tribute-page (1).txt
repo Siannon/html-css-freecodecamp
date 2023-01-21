@@ -1,0 +1,103 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>John Singer Sargent</title>
+  </head>
+  <body>
+    <div id="header">
+    <h1 id="title">John Singer Sargent</h1>
+    <h4 id="utitle">The most successful portrait painter of his era</h4>
+    </div>
+    <main id="main">
+        <figure id="img-div">
+         <img id="image" src="https://media.tate.org.uk/art/images/work/N/N01/N01615_10.jpg">
+          <figcaption id="img-caption"> Carnation Lily Lily Rose</figcaption>
+        </figure>
+            <div id="bottom">
+              <h3><a id="tribute-link" target="_blank" href="https://www.johnsingersargent.org/Carnation-Lily-Lily-Rose.html" value="more-info">More info</a></h3>
+            </div>
+             <p id="tribute-info">Born in Florence, Italy of American parents, John Singer Sargent was brought up in France, Italy, and Germany, his education was sporadic and it was made up by his cosmopolitan street smart outlook.
+
+John Singer Sargent studied painting and drawing in each of these cities, but his only formal schooling came at the Academia in Florence, where he won a prize in 1873, and in the studio of Carolus-Duran in Paris in 1874. In 1876 he paid the first of many trips to the USA, re-affirming his American citizenship in that Centennial year.
+
+John Singer Sargent painted landscapes, but it was his early portraits that earned him acclaim. Yet, the scurrilous treatment of him by the French press over a decollete Portrait of Madame Gautreau (Portrait of Madame X) induced him to leave France in 1885 and settle in London, where he spent most of his life. </p>
+
+    </main>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+#title {
+  font-family:
+}
+#utitle {
+  font-family: monospace;
+  font-size: 150%;
+  text-decoration: underline;
+  color: #8a7c88;
+}
+
+
+#title, #utitle  {
+  text-align: center;
+}
+
+#header {
+  padding-top: 15;
+}
+
+footer {
+  background-color: #a0929e;
+  height: 15%;
+}
+
+#image {
+  max-width: 100%;
+  max-height: auto;
+  display: block;
+  margin: auto;
+}
+
+#img-div {
+  display: flex;
+  align-items: center;
+}
+
+figcaption {
+  padding-left: 10
+}
+
+#tribute-link {
+  display: flex;
+  text-align: center;
+  margin: auto;
+}
+
+#bottom {
+  position: absolute;
+  padding-top: 680;
+  display: flex;
+  text-align: center;
+  padding-right: 80px;
+}
+
+p {
+  font-size: 125%;
+  padding-right: 25px;
+  margin-left: 50px;
+}
+figure {
+  display: flex;
+  align-items: center;
+  background-color: #e2c0b6;
+}
+
+** end of undefined **
+
