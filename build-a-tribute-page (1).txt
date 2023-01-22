@@ -34,9 +34,6 @@ John Singer Sargent painted landscapes, but it was his early portraits that earn
 
 ** start of undefined **
 
-#title {
-  font-family:
-}
 #utitle {
   font-family: monospace;
   font-size: 150%;
